@@ -1,0 +1,70 @@
+:root {
+	--main-color: #000206;
+	--main-color-light: #000206b2;
+	--green: #2caf55;
+}
+
+@font-face {
+	font-family: "Poppins-Regular";
+	src: url(../fonts/Poppins-Regular\ 400.ttf);
+}
+@font-face {
+	font-family: "Montserrat-Regular";
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+	color: var(--main-color);
+}
+
+.title {
+	font-size: 60px;
+	line-height: 60px;
+}
+.subtitle {
+	color: #000001cc;
+}
+.main__content button {
+	max-width: 209px;
+	width: 100%;
+}
+.btn-dark:active,
+.btn-dark:focus,
+.btn-dark:hover,
+.btn-dark:target {
+	outline: none !important;
+}
+.btn-dark {
+	background-color: var(--main-color);
+}
+
+.ff-poppins {
+	font-family: "Poppins-Regular";
+}
+.ff-montserrat {
+	font-family: "Montserrat-Regular";
+}
+.fs-15 {
+	font-size: 15px;
+	line-height: 28px;
+}
+.fs-17 {
+	font-size: 17px;
+	line-height: 17px;
+}
+
+.text-main-light {
+	color: var(--main-color-light);
+}
+.text-main {
+	color: var(--main-color);
+}
+.text-green {
+	color: var(--green);
+}
+
+.ws-pre-line {
+	white-space: pre-line;
+}
