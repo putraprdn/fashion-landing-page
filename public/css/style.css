@@ -53,6 +53,10 @@
 .product .section-wrap::after {
 	width: 36%;
 }
+.offer .section-wrap::before,
+.offer .section-wrap::after {
+	width: 39%;
+}
 .category .section-wrap {
 	color: #415161;
 }
@@ -75,6 +79,11 @@
 .offer .section-wrap {
 	margin-bottom: 67px;
 }
+
+.brand {
+	margin-top: 87px;
+}
+
 .bg-light {
 	background-color: #f6f6f6;
 }
