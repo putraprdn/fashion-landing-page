@@ -84,6 +84,15 @@
 	margin-top: 87px;
 }
 
+.cta {
+	margin-top: 73px;
+}
+.cta img {
+	margin-top: -73px;
+}
+
+
+
 .bg-light {
 	background-color: #f6f6f6;
 }
