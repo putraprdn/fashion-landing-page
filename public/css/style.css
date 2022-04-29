@@ -49,6 +49,10 @@
 .category .section-wrap::after {
 	width: 26%;
 }
+.product .section-wrap::before,
+.product .section-wrap::after {
+	width: 36%;
+}
 .category .section-wrap {
 	color: #415161;
 }
@@ -59,6 +63,17 @@
 	width: 100%;
 	max-width: 360px;
 	max-height: 395px;
+}
+
+.product {
+	margin-top: 80px;
+}
+.product .section-wrap {
+	margin-bottom: 67px;
+}
+
+.bg-light {
+	background-color: #f6f6f6;
 }
 .btn-dark:active,
 .btn-dark:focus,
