@@ -91,10 +91,21 @@
 	margin-top: -73px;
 }
 
-
+.footer .bg-dark {
+	padding: 53px 0;
+}
+.footer i {
+	display: flex;
+	justify-content: center;
+	width: 16px;
+	height: 16px;
+}
 
 .bg-light {
 	background-color: #f6f6f6;
+}
+.bg-dark {
+	background-color: #000 !important;
 }
 .btn-dark:active,
 .btn-dark:focus,
