@@ -14,6 +14,7 @@
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/css/responsive.css">
 
     <title>Beeco</title>
 </head>
@@ -27,7 +28,7 @@
                 <a class="navbar-brand me-1" href="#">
                     <img src="./public/images/logo.png" alt="logo">
                 </a>
-                <span>
+                <span class="d-md-inline-block d-none ms-2">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -78,7 +79,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <!-- Hero Text-->
-                    <div class="main__content col-md-6 ff-montserrat">
+                    <div class="main__content col-12 col-md-6 ff-montserrat">
                         <p class="fs-17 text-main d-flex flex-column">
                             Productos ecológicos
                         </p>
@@ -95,27 +96,27 @@
                     <!-- End Hero Text-->
 
                     <!-- Hero Image -->
-                    <div class="img_content col-md-6">
+                    <div class="img_content col-md-6 d-none d-md-block">
                         <img src="./public/images/model.png" alt="model image">
                     </div>
                     <!-- End Hero Image -->
                 </div>
 
                 <!-- Collection List -->
-                <div class="row row-cols-4 mt-md-5 ff-montserrat">
-                    <div class="col-md-3 text-center">
+                <div class="row mt-5 ff-montserrat">
+                    <div class="col-6 col-md-3 text-center">
                         <h5 class="fw-bold fs-16 mb-md-0">Tarjetas de Regalo</h5>
                         <p class="fs-16">¡Disfruta tu compra!</p>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-6 col-md-3 text-center">
                         <h5 class="fw-bold fs-16 mb-md-0">Nuevas Colecciones</h5>
                         <p class="fs-16">¡Míralos todos!</p>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-6 col-md-3 text-center">
                         <h5 class="fw-bold fs-16 mb-md-0">Promociones Espectáculares</h5>
                         <p class="fs-16">Vive los descuentos</p>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-6 col-md-3 text-center">
                         <h5 class="fw-bold fs-16 mb-md-0">Amigable con el medio ambiente</h5>
                         <p class="fs-16">Compra sin arrepentimientos</p>
                     </div>
@@ -127,24 +128,23 @@
 
         <!-- Category Section -->
         <section class="category">
-            <div class="section-wrap d-flex align-items-center justify-content-center gap-3 mt-md-4">
+            <div class="section-wrap d-flex align-items-center justify-content-center gap-3 mt-4">
                 <h3 class="ff-poppins mb-0 text-main">Categorias</h3>
-                <p class="my-md-auto ff-montserrat fs-18">Novedades</p>
-                <p class="my-md-auto ff-montserrat fs-18">Hombres</p>
-                <p class="my-md-auto ff-montserrat fs-18">Mujer</p>
-                <p class="my-md-auto ff-montserrat fs-18">Marca</p>
-                <p class="my-md-auto ff-montserrat fs-18">Gift cards</p>
+                <p class="my-auto ff-montserrat fs-18 d-none d-md-inline-block">Novedades</p>
+                <p class="my-auto ff-montserrat fs-18 d-none d-md-inline-block">Hombres</p>
+                <p class="my-auto ff-montserrat fs-18 d-none d-md-inline-block">Mujer</p>
+                <p class="my-auto ff-montserrat fs-18 d-none d-md-inline-block">Marca</p>
             </div>
 
             <div class="container">
                 <div class="content row ff-poppins">
-                    <div class="col-md-4 text-center d-flex flex-column">
+                    <div class="col-md-4 text-center d-flex flex-column mb-4 mb-md-0">
                         <img class="mb-3" src="./public/images/category1.png" alt="category 1">
                         <p class="fs-15 mb-0">Lo más amado para</p>
                         <h5 class="fs-17 fw-bold">Mujeres</h5>
                     </div>
-                    <div class="col-md-4 text-center d-flex flex-column-reverse">
-                        <img class="mt-4" src="./public/images/category2.png" alt="category 2">
+                    <div class="col-md-4 text-center d-flex flex-md-column-reverse flex-column mb-4 mb-md-0">
+                        <img class="mt-md-4 mb-4" src="./public/images/category2.png" alt="category 2">
                         <p class="fs-15 mb-0">Diseños de la semana</p>
                         <h5 class="fs-17 fw-bold">Novedades</h5>
                     </div>
@@ -160,7 +160,7 @@
 
         <!-- Product Section -->
         <section class="product">
-            <div class="section-wrap d-flex align-items-center justify-content-center gap-3 mt-md-4 text-center">
+            <div class="section-wrap d-flex align-items-center justify-content-center gap-3 mt-md-5 text-center">
                 <h3 class="ff-montserrat mb-0 text-main fs-30 fw-light">Productos <span
                         class="fw-bold">destacados</span></h3>
             </div>
@@ -168,26 +168,26 @@
             <div class="bg-light pt-5 pb-4">
                 <div class="container">
                     <div class="row ff-montserrat">
-                        <div class="col-md-3">
-                            <img class="mb-3 rounded-2" src="./public/images/product1.png" alt="product 1">
+                        <div class="col-md-3 text-center text-md-start mb-5 mb-md-0">
+                            <img class="mb-3 rounded-2 w-100" src="./public/images/product1.png" alt="product 1">
                             <p class="mb-0 fs-13">Blusas</p>
                             <h5 class="fs-15 fw-bold">Blusa rayas</h5>
                             <p class="fs-14 mb-0">&#36 15.00</p>
                         </div>
-                        <div class="col-md-3">
-                            <img class="mb-3 rounded-2" src="./public/images/product2.png" alt="product 2">
+                        <div class="col-md-3 text-center text-md-start mb-5 mb-md-0">
+                            <img class="mb-3 rounded-2 w-100" src="./public/images/product2.png" alt="product 2">
                             <p class="mb-0 fs-13">Camisas</p>
                             <h5 class="fs-15 fw-bold">Camisas</h5>
                             <p class="fs-14 mb-0">&#36 19.00</p>
                         </div>
-                        <div class="col-md-3">
-                            <img class="mb-3 rounded-2" src="./public/images/product3.png" alt="product 3">
+                        <div class="col-md-3 text-center text-md-start mb-5 mb-md-0">
+                            <img class="mb-3 rounded-2 w-100" src="./public/images/product3.png" alt="product 3">
                             <p class="mb-0 fs-13">Blusas</p>
                             <h5 class="fs-15 fw-bold">Blusas</h5>
                             <p class="fs-14 mb-0">&#36 15.00</p>
                         </div>
-                        <div class="col-md-3">
-                            <img class="mb-3 rounded-2" src="./public/images/product4.png" alt="product 4">
+                        <div class="col-md-3 text-center text-md-start mb-5 mb-md-0">
+                            <img class="mb-3 rounded-2 w-100" src="./public/images/product4.png" alt="product 4">
                             <p class="mb-0 fs-13">Sacos</p>
                             <h5 class="fs-15 fw-bold">Saco gris</h5>
                             <p class="fs-14 mb-0">&#36 15.00</p>
@@ -200,34 +200,34 @@
 
         <!-- Best Offer Section -->
         <section class="offer">
-            <div class="section-wrap d-flex align-items-center justify-content-center gap-3 mt-md-4 text-center">
+            <div class="section-wrap d-flex align-items-center justify-content-center gap-3 mt-5 text-center">
                 <h3 class="ff-montserrat mb-0 text-main fs-30 fw-light">Nuestras <span class="fw-bold">Ofertas</span>
                 </h3>
             </div>
 
-            <div class="pt-5 pb-4">
+            <div class="pt-2 pb-4">
                 <div class="container">
                     <div class="row ff-montserrat">
-                        <div class="col-md-3">
-                            <img class="mb-3 rounded-2" src="./public/images/product1.png" alt="product 1">
+                        <div class="col-md-3 text-center text-md-start mb-5 mb-md-0">
+                            <img class="mb-3 rounded-2 w-100" src="./public/images/product1.png" alt="product 1">
                             <p class="mb-0 fs-13">Blusas</p>
                             <h5 class="fs-15 fw-bold">Blusa rayas</h5>
                             <p class="fs-14 mb-0">&#36 15.00</p>
                         </div>
-                        <div class="col-md-3">
-                            <img class="mb-3 rounded-2" src="./public/images/product2.png" alt="product 2">
+                        <div class="col-md-3 text-center text-md-start mb-5 mb-md-0">
+                            <img class="mb-3 rounded-2 w-100" src="./public/images/product2.png" alt="product 2">
                             <p class="mb-0 fs-13">Camisas</p>
                             <h5 class="fs-15 fw-bold">Camisas</h5>
                             <p class="fs-14 mb-0">&#36 19.00</p>
                         </div>
-                        <div class="col-md-3">
-                            <img class="mb-3 rounded-2" src="./public/images/product3.png" alt="product 3">
+                        <div class="col-md-3 text-center text-md-start mb-5 mb-md-0">
+                            <img class="mb-3 rounded-2 w-100" src="./public/images/product3.png" alt="product 3">
                             <p class="mb-0 fs-13">Blusas</p>
                             <h5 class="fs-15 fw-bold">Blusas</h5>
                             <p class="fs-14 mb-0">&#36 15.00</p>
                         </div>
-                        <div class="col-md-3">
-                            <img class="mb-3 rounded-2" src="./public/images/product4.png" alt="product 4">
+                        <div class="col-md-3 text-center text-md-start mb-5 mb-md-0">
+                            <img class="mb-3 rounded-2 w-100" src="./public/images/product4.png" alt="product 4">
                             <p class="mb-0 fs-13">Sacos</p>
                             <h5 class="fs-15 fw-bold">Saco gris</h5>
                             <p class="fs-14 mb-0">&#36 15.00</p>
@@ -241,23 +241,23 @@
         <!-- Brand Section -->
         <section class="brand">
             <div class="container">
-                <div class="row row-cols-6">
-                    <div class="col m-auto d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-4 col-md-2 m-auto d-flex justify-content-center">
                         <img src="./public/images/marcas.png" alt="marcas logo">
                     </div>
-                    <div class="col m-auto d-flex justify-content-center">
+                    <div class="col-4 col-md-2 m-auto d-flex justify-content-center">
                         <img src="./public/images/hipster.png" alt="hipster logo">
                     </div>
-                    <div class="col m-auto d-flex justify-content-center">
+                    <div class="col-4 col-md-2 m-auto d-flex justify-content-center">
                         <img src="./public/images/urban_fashion.png" alt="urban fashion logo">
                     </div>
-                    <div class="col m-auto d-flex justify-content-center">
+                    <div class="col-4 col-md-2 m-auto d-flex justify-content-center">
                         <img src="./public/images/natural_clothing.png" alt="natural clothing logo">
                     </div>
-                    <div class="col m-auto d-flex justify-content-center">
+                    <div class="col-4 col-md-2 m-auto d-flex justify-content-center">
                         <img src="./public/images/retro_studio.png" alt="retro studio logo">
                     </div>
-                    <div class="col m-auto d-flex justify-content-center">
+                    <div class="col-4 col-md-2 m-auto d-flex justify-content-center">
                         <img src="./public/images/iconic_menswear.png" alt="iconic menswear logo">
                     </div>
                 </div>
@@ -269,8 +269,8 @@
         <section class="cta">
             <div class="bg-light ff-montserrat">
                 <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-9">
+                    <div class="row align-items-center py-5 p-md-0">
+                        <div class="col-12 col-md-9">
                             <div class="w-50 mb-5">
                                 <h4 class="fs-36 fw-bold mb-3">
                                     ¡Recibe las mejores promociones!
@@ -293,7 +293,7 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 d-none d-md-block">
                             <img src="./public/images/model2.png" alt="model 2">
                         </div>
                     </div>
@@ -341,13 +341,15 @@
                         <h4 class="fs-17 fw-bold mb-4">Links rápidos</h4>
                         <ul class="list-unstyled">
                             <li>
-                                <a class="fs-15 mt-3 text-decoration-none text-white" href="javascript:;">Acerca de nosotros</a>
+                                <a class="fs-15 mt-3 text-decoration-none text-white" href="javascript:;">Acerca de
+                                    nosotros</a>
                             </li>
                             <li>
                                 <a class="fs-15 mt-3 text-decoration-none text-white" href="javascript:;">Tienda</a>
                             </li>
                             <li>
-                                <a class="fs-15 mt-3 text-decoration-none text-white" href="javascript:;">Contáctanos</a>
+                                <a class="fs-15 mt-3 text-decoration-none text-white"
+                                    href="javascript:;">Contáctanos</a>
                             </li>
                         </ul>
                     </div>
@@ -355,13 +357,16 @@
                         <h4 class="fs-17 fw-bold mb-4">Links Importantes</h4>
                         <ul class="list-unstyled">
                             <li>
-                                <a class="fs-15 mt-3 text-decoration-none text-white" href="javascript:;">Política de privacidad</a>
+                                <a class="fs-15 mt-3 text-decoration-none text-white" href="javascript:;">Política de
+                                    privacidad</a>
                             </li>
                             <li>
-                                <a class="fs-15 mt-3 text-decoration-none text-white" href="javascript:;">Detalles de envío</a>
+                                <a class="fs-15 mt-3 text-decoration-none text-white" href="javascript:;">Detalles de
+                                    envío</a>
                             </li>
                             <li>
-                                <a class="fs-15 mt-3 text-decoration-none text-white" href="javascript:;">Términos y condiciones</a>
+                                <a class="fs-15 mt-3 text-decoration-none text-white" href="javascript:;">Términos y
+                                    condiciones</a>
                             </li>
                         </ul>
                     </div>

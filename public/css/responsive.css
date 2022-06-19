@@ -1,0 +1,28 @@
+@media screen and (max-width: 430px) {
+	.product h3,
+	.offer h3 {
+		font-size: 23px !important;
+	}
+	.product .section-wrap::before,
+	.product .section-wrap::after {
+		width: 10%;
+	}
+	.offer .section-wrap::before,
+	.offer .section-wrap::after {
+		width: 19%;
+	}
+
+	.cta .w-50 {
+		width: 100% !important;
+	}
+
+	.cta .fs-36 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	.cta .fs-17 {
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
